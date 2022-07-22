@@ -9,6 +9,10 @@ public class PiServiceImpl implements IPiService {
 	@Override
 	public PiResponse calcularPi(int input_number) {
 		
+		if(input_number == 0) {
+			return null;
+		}
+		
 		PiResponse piResponse = new PiResponse();
 		
 		piResponse.setParam(input_number);

@@ -26,6 +26,12 @@ public class PiController {
         
         PiResponse piResponse = PiService.calcularPi(input_number);
         
-        return ResponseEntity.ok(piResponse);
+        if(piResponse != null){
+            return ResponseEntity.ok(piResponse);
+        } else {
+            response.put("status", "Error");
+            response.put("message", "El parámetro inicial no debe ser cero");
+            return ResponseEntity.status(404).body(response);
+        }
     }
 }

@@ -1,5 +1,7 @@
 package com.pesonalsoft.pirandom.backend.apirest.services;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.text.DecimalFormat;
 import java.util.Random;
 
@@ -57,9 +59,7 @@ public class PiServiceImpl implements IPiService {
 	}
 	
 	private String obtenerDecimalesPi(int random) {
-		DecimalFormat decFormat = new DecimalFormat();
-		decFormat.setMaximumFractionDigits(random);
-		
-		return decFormat.format(Math.PI);
+		BigDecimal decimal = new BigDecimal(Math.PI);
+		return decimal.setScale(random, RoundingMode.DOWN).toString();
 	}	
 }

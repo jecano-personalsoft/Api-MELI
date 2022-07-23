@@ -11,6 +11,12 @@ Este proyecto fue generado con Spring Boot Framework en la versión 2.7.2.
 - Se adiciona un archivo con formato jmx (Apache JMetter) en el que se realizan pruebas de carga y consumo masivo en la ruta del proyecto:
 
   > pi-random-backend-apirest\src\main\resources\plan_pruebas.jmx
+  
+- Se adiciona la librería Lombok para trabajar de una manera más simplificada el tema de los getters y setters en las clases del proyecto. Además, se implementa el manejo de logs mediante el plugin de Logback haciendo uso de los decoradores de Lombok para agilizar el desarrollo.
+
+  Nota: el archivo de configuración de los logs se encuentra en:
+  
+    > pi-random-backend-apirest\src\main\resources\logback-spring.xml
 
 ## Seguridad de la Api
 

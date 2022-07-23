@@ -19,7 +19,7 @@ import com.pesonalsoft.pirandom.backend.apirest.utiles.Constantes;
 
 @CrossOrigin(origins = "*", methods= {RequestMethod.GET,RequestMethod.POST})
 @RestController
-@RequestMapping("/api/v1")
+@RequestMapping("/v1")
 public class PiController {
 	
 	@Autowired

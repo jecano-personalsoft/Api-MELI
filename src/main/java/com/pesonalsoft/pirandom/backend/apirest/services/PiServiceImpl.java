@@ -3,14 +3,20 @@ package com.pesonalsoft.pirandom.backend.apirest.services;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Random;
+import lombok.extern.slf4j.Slf4j;
+//import org.slf4j.Logger;
+//import org.slf4j.LoggerFactory;
 
 import org.springframework.stereotype.Service;
 import com.pesonalsoft.pirandom.backend.apirest.models.PiResponse;
 import com.pesonalsoft.pirandom.backend.apirest.models.PiSimpleResponse;
 
 @Service
+@Slf4j
 public class PiServiceImpl implements IPiService {
 
+	//private static Logger LOGGER = LoggerFactory.getLogger(PiServiceImpl.class);
+	
 	@Override
 	public PiResponse calcularPiRandom(int input_number) {
 		
@@ -33,6 +39,9 @@ public class PiServiceImpl implements IPiService {
 	
 	@Override
 	public PiSimpleResponse calcularPi(int random_number) {
+		
+		//LOGGER.info("Entrando a calcular los digitos de pi");
+		log.info("Entrando a calcular los digitos de pi");
 		
 		if(random_number <= 0) {
 			return null;

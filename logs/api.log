@@ -1,0 +1,71 @@
+23-07-2022 15:37:51.047 [restartedMain] INFO  c.p.p.b.a.PiRandomBackendApirestApplication.logStarting - Starting PiRandomBackendApirestApplication using Java 17.0.2 on DESKTOP-TTJJEVN with PID 7156 (C:\Users\Windows\eclipse-workspace\pi-random-backend-apirest\target\classes started by Windows in C:\Users\Windows\eclipse-workspace\pi-random-backend-apirest)
+23-07-2022 15:37:51.050 [restartedMain] INFO  c.p.p.b.a.PiRandomBackendApirestApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+23-07-2022 15:37:51.108 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+23-07-2022 15:37:51.110 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+23-07-2022 15:37:52.027 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+23-07-2022 15:37:52.042 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+23-07-2022 15:37:52.044 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.65]
+23-07-2022 15:37:52.100 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/api].log - Initializing Spring embedded WebApplicationContext
+23-07-2022 15:37:52.102 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 991 ms
+23-07-2022 15:37:52.361 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Searching for key 'error.path:/error' in PropertySource 'environmentProperties'
+23-07-2022 15:37:52.362 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Searching for key 'error.path:/error' in PropertySource 'localProperties'
+23-07-2022 15:37:52.362 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Could not find key 'error.path:/error' in any property source
+23-07-2022 15:37:52.363 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Searching for key 'error.path' in PropertySource 'environmentProperties'
+23-07-2022 15:37:52.363 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Searching for key 'error.path' in PropertySource 'localProperties'
+23-07-2022 15:37:52.363 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Could not find key 'error.path' in any property source
+23-07-2022 15:37:52.364 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Searching for key 'server.error.path:/error' in PropertySource 'environmentProperties'
+23-07-2022 15:37:52.364 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Searching for key 'server.error.path:/error' in PropertySource 'localProperties'
+23-07-2022 15:37:52.365 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Could not find key 'server.error.path:/error' in any property source
+23-07-2022 15:37:52.365 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Searching for key 'server.error.path' in PropertySource 'environmentProperties'
+23-07-2022 15:37:52.365 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Searching for key 'server.error.path' in PropertySource 'localProperties'
+23-07-2022 15:37:52.365 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Could not find key 'server.error.path' in any property source
+23-07-2022 15:37:52.367 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Searching for key 'error.path:/error' in PropertySource 'environmentProperties'
+23-07-2022 15:37:52.367 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Searching for key 'error.path:/error' in PropertySource 'localProperties'
+23-07-2022 15:37:52.367 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Could not find key 'error.path:/error' in any property source
+23-07-2022 15:37:52.368 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Searching for key 'error.path' in PropertySource 'environmentProperties'
+23-07-2022 15:37:52.368 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Searching for key 'error.path' in PropertySource 'localProperties'
+23-07-2022 15:37:52.369 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Could not find key 'error.path' in any property source
+23-07-2022 15:37:52.369 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Searching for key 'server.error.path:/error' in PropertySource 'environmentProperties'
+23-07-2022 15:37:52.369 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Searching for key 'server.error.path:/error' in PropertySource 'localProperties'
+23-07-2022 15:37:52.369 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Could not find key 'server.error.path:/error' in any property source
+23-07-2022 15:37:52.370 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Searching for key 'server.error.path' in PropertySource 'environmentProperties'
+23-07-2022 15:37:52.370 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Searching for key 'server.error.path' in PropertySource 'localProperties'
+23-07-2022 15:37:52.371 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Could not find key 'server.error.path' in any property source
+23-07-2022 15:37:52.452 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+23-07-2022 15:37:52.491 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path '/api'
+23-07-2022 15:37:52.506 [restartedMain] INFO  c.p.p.b.a.PiRandomBackendApirestApplication.logStarted - Started PiRandomBackendApirestApplication in 1.955 seconds (JVM running for 2.787)
+23-07-2022 15:37:58.046 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[localhost].[/api].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23-07-2022 15:37:58.047 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+23-07-2022 15:37:58.049 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 2 ms
+23-07-2022 15:37:58.081 [http-nio-8080-exec-2] INFO  c.p.p.b.a.services.PiServiceImpl.calcularPi - Entrando a calcular los digitos de pi
+23-07-2022 15:38:35.665 [restartedMain] INFO  c.p.p.b.a.PiRandomBackendApirestApplication.logStarting - Starting PiRandomBackendApirestApplication using Java 17.0.2 on DESKTOP-TTJJEVN with PID 7156 (C:\Users\Windows\eclipse-workspace\pi-random-backend-apirest\target\classes started by Windows in C:\Users\Windows\eclipse-workspace\pi-random-backend-apirest)
+23-07-2022 15:38:35.666 [restartedMain] INFO  c.p.p.b.a.PiRandomBackendApirestApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+23-07-2022 15:38:35.834 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+23-07-2022 15:38:35.836 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+23-07-2022 15:38:35.836 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.65]
+23-07-2022 15:38:35.849 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/api].log - Initializing Spring embedded WebApplicationContext
+23-07-2022 15:38:35.849 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 180 ms
+23-07-2022 15:38:35.901 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Searching for key 'error.path:/error' in PropertySource 'environmentProperties'
+23-07-2022 15:38:35.903 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Searching for key 'error.path:/error' in PropertySource 'localProperties'
+23-07-2022 15:38:35.904 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Could not find key 'error.path:/error' in any property source
+23-07-2022 15:38:35.904 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Searching for key 'error.path' in PropertySource 'environmentProperties'
+23-07-2022 15:38:35.905 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Searching for key 'error.path' in PropertySource 'localProperties'
+23-07-2022 15:38:35.905 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Could not find key 'error.path' in any property source
+23-07-2022 15:38:35.905 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Searching for key 'server.error.path:/error' in PropertySource 'environmentProperties'
+23-07-2022 15:38:35.906 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Searching for key 'server.error.path:/error' in PropertySource 'localProperties'
+23-07-2022 15:38:35.906 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Could not find key 'server.error.path:/error' in any property source
+23-07-2022 15:38:35.906 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Searching for key 'server.error.path' in PropertySource 'environmentProperties'
+23-07-2022 15:38:35.907 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Searching for key 'server.error.path' in PropertySource 'localProperties'
+23-07-2022 15:38:35.907 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Could not find key 'server.error.path' in any property source
+23-07-2022 15:38:35.908 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Searching for key 'error.path:/error' in PropertySource 'environmentProperties'
+23-07-2022 15:38:35.909 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Searching for key 'error.path:/error' in PropertySource 'localProperties'
+23-07-2022 15:38:35.910 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Could not find key 'error.path:/error' in any property source
+23-07-2022 15:38:35.910 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Searching for key 'error.path' in PropertySource 'environmentProperties'
+23-07-2022 15:38:35.911 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Searching for key 'error.path' in PropertySource 'localProperties'
+23-07-2022 15:38:35.913 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Could not find key 'error.path' in any property source
+23-07-2022 15:38:35.914 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Searching for key 'server.error.path:/error' in PropertySource 'environmentProperties'
+23-07-2022 15:38:35.914 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Searching for key 'server.error.path:/error' in PropertySource 'localProperties'
+23-07-2022 15:38:35.914 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Could not find key 'server.error.path:/error' in any property source
+23-07-2022 15:38:35.915 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Searching for key 'server.error.path' in PropertySource 'environmentProperties'
+23-07-2022 15:38:35.915 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Searching for key 'server.error.path' in PropertySource 'localProperties'
+23-07-2022 15:38:35.915 [restartedMain] TRACE o.s.c.e.PropertySourcesPropertyResolver.getProperty - Could not find key 'server.error.path' in any property source

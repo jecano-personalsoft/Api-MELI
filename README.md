@@ -14,3 +14,6 @@ Este proyecto fue generado con Spring Boot Framework en la versión 2.7.2.
 
 ## Seguridad de la Api
 
+- ¿Qué componentes usarías para securitizar tu API?
+
+  Existen varias alternativas. Sin embargo, una forma sencilla sería trabajar con sesiones cuando la aplicación tiene todo incluido como las vistas, controladores, servicios, etc. Por otro lado, al realizar microservicios o aplicaciones desacopladas entre sí; se podría utilizar mejor el método de Token Authentication, Oauth2 con JWT u otro servicio que incrementen la seguridad como LDAP, SSO, entre otros.

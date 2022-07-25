@@ -12,10 +12,10 @@ Nota: se recomienda ejecutar el proyecto sobre linux toda vez que es más simple
 
 ## Ejecución através de Linux Terminal
 
-> git clone https://github.com/jecano-personalsoft/Api-MELI.git
-> cd Api-MELI
-> chmod 777 install.sh
-> ./install.sh
+> git clone https://github.com/jecano-personalsoft/Api-MELI.git <br>
+> cd Api-MELI <br>
+> chmod 777 install.sh <br>
+> ./install.sh <br>
 
 ## Ejecución de la api dockerizada manualmente
 

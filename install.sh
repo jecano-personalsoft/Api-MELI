@@ -7,4 +7,4 @@ chown -R $USER:`id -gn` /springBoot/api_meli/config/
 mvn clean
 mvn install
 docker build -t "api-meli" .
-docker run --env LOG_DIR=/logs/api_meli --env LOG_LEVEL=DEBUG -p 8080:8080 api-meli
+docker run --env LOG_DIR=/springBoot/api_meli/logs --env LOG_LEVEL=DEBUG -p 8080:8080 api-meli

@@ -8,11 +8,13 @@ Este proyecto fue generado con Spring Boot Framework en la versión 2.7.2.
 2. Tener instalado JAVA VM 8 o superior.
 3. Poder hacer uso de GIT para descargar el repositorio.
 
+Nota: se recomienda ejecutar el proyecto sobre linux toda vez que es mas simple configurar y correr todas las parametrizaciones.
+
 ## Ejecución através de Linux Terminal
 
 > git clone https://github.com/jecano-personalsoft/Api-MELI.git
 > cd Api-MELI
-> chmod 775 install.sh
+> chmod 777 install.sh
 > ./install.sh
 
 
@@ -20,7 +22,7 @@ Compilar la app en docker:
   > docker build -t "api-meli" .
 
 Ejecutar la app con Docker:
-  > docker run 8080:8080 api-meli
+  > docker run --env LOG_DIR=/opt/logs --env LOG_LEVEL=DEBUG -p 8080:8080 api-meli -d
 
 ## Consideraciones
 

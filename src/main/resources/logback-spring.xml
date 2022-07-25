@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<configuration scan="true" scanPeriod="180 seconds">
+<configuration scan="true" scanPeriod="5 seconds">
 
 	<include resource="org/springframework/boot/logging/logback/defaults.xml"/>
     <include resource="org/springframework/boot/logging/logback/base.xml"/>
     <include resource="org/springframework/boot/logging/logback/console-appender.xml"/>
-    <property name="LOG_PATH" value="./logs" />
+    <property name="LOG_PATH" value="/springBoot/api_meli/logs" />
     
     <appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
         <layout class="ch.qos.logback.classic.PatternLayout">
@@ -29,7 +29,7 @@
         </rollingPolicy>
     </appender>
 
-    <root level="info">
+    <root level="debug">
         <appender-ref ref="RollingFile" />
         <appender-ref ref="Console" />
     </root>

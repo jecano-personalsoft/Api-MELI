@@ -28,6 +28,12 @@ Nota: se recomienda ejecutar el proyecto sobre linux toda vez que es más simple
 Nota: se debe eliminar manualmente el archivo logback-spring.xml en caso de que no se ejecute el fichero install.sh. Esto es debido a que al contenerizar la api, docker no es capáz de crear o encontrar el directorio de los logs y no fue posible configurarlo para que funcione sin problemas. La ruta donde se ubica es:
   > Api-MELI\src/main/resources/
 
+## Librerías utilizadas
+
+1. Lombok: ayuda a mejorar los tiempos de codificación ya que puede realizar muchos procesos de forma automática como por ejemplo, la creación de getters y setters que toman un poco de tiempo dependiendo del IDE. Además, al generar etters y setters garantizamos que no tendremos que estar cambiando los nombres cada vez que se actualice el nombre de una variable.
+
+2. Logback: sirve para garantizar la trazabilidad del aplicativo generando logs.
+
 ## Consideraciones
 
 - Se adiciona un postman collection con el fin de poder realizar consultas sobre lo desarrollado en la ruta:<br><br>
@@ -52,8 +58,33 @@ Nota: se debe eliminar manualmente el archivo logback-spring.xml en caso de que 
 
   > Api-MELI\install.sh
 
+## Estructura de directorios
+
+##### Estructura de la capa de código
+
+Directorio raíz: Api-MELI/src/main/java
+
+1. controllers:
+  Contiene los controladores y la información del enrutamiento de los endpoints que ejecutarán los request desde el front end.
+2. models:
+  Contiene los modelos o DAO necesarios que se usan para emitir los datos cuando se devulve la respuesta hacia el front end.
+3. services: 
+  Capa de servicio de datos, contiene la interfaz de implementación de la capa de servicio de datos así como su implementación.
+4. utiles:
+  Herramientas de diferentes usos como constantes, variables globales, archivos de uso general (helpers), datos transversales, etc.
+
+##### Estructura de la capa de recursos
+
+Directorio raíz: Api-MELI/src/main/resources
+
+1. Aquí se pueden colocar varios archivos de recursos estáticos como imagenes, archivos de configuración, plantillas, etc.
+
 ## Seguridad de la Api
 
 - ¿Qué componentes usarías para securitizar tu API?<br><br>
 
-  Existen varias alternativas. Sin embargo, una forma sencilla sería trabajar con sesiones cuando la aplicación tiene todo incluido como las vistas, controladores, servicios, etc. Por otro lado, al realizar microservicios o aplicaciones desacopladas entre sí; se podría utilizar mejor el método de Token Authentication, Oauth2 con JWT u otro servicio que incremente la seguridad como LDAP, SSO, entre otros.
+  Existen varias alternativas. Sin embargo, una forma sencilla sería trabajar con sesiones cuando la aplicación tiene todo incluido como las vistas, controladores, servicios, etc. Por otro lado, al realizar microservicios o aplicaciones desacopladas entre sí; se podría utilizar mejor el método de Token Authentication, Oauth2 con JWT u otro servicio que incremente la seguridad como LDAP, SSO, entre otros.<br><br>
+  
+- ¿Cómo asegurarías tu API desde el ciclo de vida de desarrollo?<br><br>
+
+  Para poder garantizar que un API sea perdurable durante su ciclo de vida, se debe partir por realizar una buena planificación y diseño de la misma toda vez que si esto no se realiza de manera adecuada; la API podría retirarse incluso antes de finalizar su desarrollo. Por otro lado, durante su fase de desarrollo es necesario que cuente con buenos estándares de codificación, pruebas y documentación. Esto último garantizará que la API sea sostenible durante mucho tiempo incluso por desarrolladores nuevos en el proyecto. Por último, es importante monitorear las APIs para garantizar que efectivamente se estén usando y así no generar sobrecostos o afectaciones de rendimiento.

@@ -10,7 +10,7 @@ Este proyecto fue generado con Spring Boot Framework en la versión 2.7.2.
 
 Nota: se recomienda ejecutar el proyecto sobre linux toda vez que es más simple realizar las configuraciones y correr los procesos.
 
-## Ejecución através de Linux Terminal
+## Ejecución através de Linux Terminal mediante **bash**
 
 > git clone https://github.com/jecano-personalsoft/Api-MELI.git <br>
 > cd Api-MELI <br>

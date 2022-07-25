@@ -56,4 +56,4 @@ Nota: se debe eliminar manualmente el archivo logback-spring.xml en caso de que 
 
 - ¿Qué componentes usarías para securitizar tu API?<br><br>
 
-  Existen varias alternativas. Sin embargo, una forma sencilla sería trabajar con sesiones cuando la aplicación tiene todo incluido como las vistas, controladores, servicios, etc. Por otro lado, al realizar microservicios o aplicaciones desacopladas entre sí; se podría utilizar mejor el método de Token Authentication, Oauth2 con JWT u otro servicio que incrementen la seguridad como LDAP, SSO, entre otros.
+  Existen varias alternativas. Sin embargo, una forma sencilla sería trabajar con sesiones cuando la aplicación tiene todo incluido como las vistas, controladores, servicios, etc. Por otro lado, al realizar microservicios o aplicaciones desacopladas entre sí; se podría utilizar mejor el método de Token Authentication, Oauth2 con JWT u otro servicio que incremente la seguridad como LDAP, SSO, entre otros.
